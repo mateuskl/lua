@@ -11,9 +11,6 @@ function Adder:sum(a, b)
 end
 
 
--- Point - END
-
-
 function main()
     a = Adder:new{}
     s = a:sum(2,3)
